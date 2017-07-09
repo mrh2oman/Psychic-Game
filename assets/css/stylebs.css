@@ -1,0 +1,46 @@
+body {
+
+  background: url("../images/pineapplecut.png");
+}
+.text-right{
+	margin-top: 0px;
+
+}
+
+.jumbotron{
+	background: #cce830;
+}
+
+#images2{
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 651px){
+  #images{
+      width:50%;
+      position:relative;
+      float:left;
+      clear:both;      
+  }
+
+  #game{
+  	width:40%;
+	display:inline-block;
+  }
+
+}
+
+
+@media screen and (max-width:650px) and (min-width: 400px){
+	#header, #images2{
+		height:75px;
+	}
+
+	#images {
+		height:28%;
+		height:auto;
+	}
+
+
+
+}
