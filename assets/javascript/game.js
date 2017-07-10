@@ -29,7 +29,7 @@ document.onkeydown = function(event) {
 
 var playerGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
-console.log(computerGuess + playerGuess);
+
 
 
 
@@ -60,5 +60,5 @@ document.getElementBy
 document.querySelector("#game").innerHTML = html;
 
 
-
+console.log(computerGuess + playerGuess);
 }
