@@ -30,9 +30,6 @@ document.onkeydown = function(event) {
 var playerGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
 
-
-
-
 if (guessedLetters.indexOf(playerGuess) < 0 && alphabetLetters.indexOf(playerGuess) >= 0){
 	guessedLetters[guessedLetters.length]=playerGuess;
 	livesLeft--;
@@ -56,7 +53,6 @@ if (livesLeft === 0) {
 
 var html = "<p><h4> Wins: " + wins + "<p><h4> Losses: " + losses + "</h4></p>" + "<p><h4> Lives Left: " +
 livesLeft + "</h4></p>" + "<p><h4> Already Guessed Letters: " + guessedLetters + "</h4></p>";
-document.getElementBy
 document.querySelector("#game").innerHTML = html;
 
 
