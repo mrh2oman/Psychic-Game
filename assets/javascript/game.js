@@ -9,7 +9,7 @@ var pics = ["assets/images/Psych.jpg", "assets/images/Psych1.jpg","assets/images
 window.onload = function psychPic() {
 	var randomPic =Math.floor(Math.random()*pics.length);
 		document.getElementById("images").src = pics[randomPic];
-}
+
 
 
 var GetOut = "Get out of the console log you cheater";
@@ -19,7 +19,8 @@ wins = 0;
 losses = 0;
 livesLeft = 10;
 guessedLetters = [];
-playerGuess = null;
+
+
 
 var alphabetLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
@@ -57,4 +58,5 @@ document.querySelector("#game").innerHTML = html;
 
 
 console.log(computerGuess + playerGuess);
+}
 }
