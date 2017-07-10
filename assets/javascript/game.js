@@ -1,5 +1,9 @@
 
-var pics = ["assets/images/Psych.jpg", "assets/images/Psych1.jpg","assets/images/Psych2.jpg","assets/images/Psych3.jpg"];
+var pics = ["assets/images/Psych.jpg", "assets/images/Psych1.jpg","assets/images/Psych2.jpg",
+"assets/images/Psych3.jpg", "assets/images/Psych5.jpg", "assets/images/Psych6.jpg"];
+
+
+
 
 
 window.onload = function psychPic() {
