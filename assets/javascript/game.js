@@ -29,6 +29,7 @@ document.onkeydown = function(event) {
 
 var playerGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
+console.log(computerGuess + playerGuess);
 
 
 
@@ -39,18 +40,18 @@ if (guessedLetters.indexOf(playerGuess) < 0 && alphabetLetters.indexOf(playerGue
 
 if (computerGuess === playerGuess){
 	wins++;
+	alert("You choose the correct letter. The computer choose " + computerGuess);
 	livesLeft = 10;
 	guessedLetters = [];
 	computerGuess = alphabetLetters[Math.floor(Math.random()*alphabetLetters.length)];
-	alert("You choose the correct letter. The computer choose " + computerGuess);
 }
 
 if (livesLeft === 0) {
 	losses++;
+	alert("You did not choose the correct letter. The computer choose " + computerGuess);
 	livesLeft = 10;
 	guessedLetters =[];
 	computerGuess = alphabetLetters[Math.floor(Math.random()*alphabetLetters.length)];
-	alert("You did not choose the correct letter. The computer choose " + computerGuess);
 }
 
 var html = "<p><h4> Wins: " + wins + "<p><h4> Losses: " + losses + "</h4></p>" + "<p><h4> Lives Left: " +
