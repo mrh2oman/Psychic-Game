@@ -15,10 +15,6 @@ go to this link - https://mrh2oman.github.io/Psychic-Game/
 
 #Usage
 
-    After you have cloned this repo to your desktop, initialized the mortyroadDB.sql and ran npm install you can start the program by traveling to the root directory running either of the following commands - 
-
-    node mortyroadCustomer.js 
-                OR
-    node mortyroadManager.js
+After you have cloned this repo to your desktop you can run the game by either opening the index.html file or by using the link posted above.
 
 
