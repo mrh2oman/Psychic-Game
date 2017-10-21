@@ -1,5 +1,5 @@
 # Psychic-Game
-    A simple HTML game inspired by the tv show "Psych" using javascript where the computer randomly selects a letter and the user has ten guess to get it right. If they are right, their win count increases by one. If they are wrong, their loss count increases by one.  Either way the computer will reveal the answer if you are correct or if you have run out of guesses and the game will restart automatically.
+A simple HTML game inspired by the tv show "Psych" using javascript where the computer randomly selects a letter and the user has ten guesses to get it right. If they are right, their win count increases by one. If they are wrong, their loss count increases by one.  Either way the computer will reveal the answer if you are correct or if you have run out of guesses and the game will restart automatically.
 ![Alt text](/assets/images/Psych.jpg "Psych")
 
  #Features
