@@ -4,31 +4,14 @@ A simple HTML game inspired by the tv show "Psych" using javascript where the co
 
  #Features
 
- Uses a NodeJS interface
-
- Customers can -
-    Purchase products from the MortyRoad inventory
-
- 1. Managers can: 
-   * View all the products for sale
-   * View what items have a low inventory
-![Alt text](/images/ViewInvLowInv.png "View Products and View Items with Low Inventory")
-
-   * Add to existing inventory levels
-   * Create a new product with an inventory level
-   ![Alt text](/images/IncInvAddItem.png "View Products and View Items with Low Inventory")
+ Uses HTML, CSS/Bootstrap, and Javascript
 
 
 #Setup
 
-    Clone this repo to your desktop and run NPM install to install all the dependencies
-
-    Initialize the mortyroadDB.sql file in MySql Workbench
-
-
-    Run node mortyroadCustomer.js 
-                OR
-    Run node mortyroadManager.js
+Clone this repo to your desktop and open the index.html
+                        or
+go to this link - https://mrh2oman.github.io/Psychic-Game/
 
 #Usage
 
